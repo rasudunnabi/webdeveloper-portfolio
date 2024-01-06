@@ -158,10 +158,12 @@ main section {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  transition: 0.3s;
+  transition: 0.5s;
+  z-index: 20;
 }
 .skill:hover {
-  box-shadow: 0px 6px 100px 0px rgba(255, 166, 0, 0.26);
+  box-shadow: 0px 6px 100px 0px #fd6f0a4d;
+  z-index: 1;
 }
 .skill-des {
   color: #757575;
